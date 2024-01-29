@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node:18.19.0
+      - image: cimg/node:18.19.0
 
     steps:
       - checkout
@@ -22,11 +22,4 @@ workflows:
   version: 2
   lint:
     jobs:
-      - build:
-          filters:
-            branches:
-              only:
-                - main
-            pull-requests:
-              only:
-                - /^feature\//
+      - build
