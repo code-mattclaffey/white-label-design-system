@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "KnisterPeter.vscode-commitizen",
+    "mike-north.vscode-turbo-javascript",
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-rename-tag",
+    "ms-vscode.vscode-typescript-next",
+    "firsttris.vscode-jest-runner",
+    "rvest.vs-code-prettier-eslint",
+    "unifiedjs.vscode-mdx"
+  ]
+}
